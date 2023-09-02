@@ -1,0 +1,60 @@
+//function imprimirOlaMundo(){
+   // console.log("ola mundo!");
+//}
+
+//imprimirOlaMundo();]
+
+// function Imprimirname(name){
+//console.log("ola"+ name )
+// }
+
+ //Imprimirname("pedro")
+ //Imprimirname("henrique")
+ //Imprimirname("olivia")
+
+
+
+
+ //const a = 1
+
+ //function imprimirvariavel () {const b = 2 
+ 
+ //console.log('variavel a', a) 
+ //console.log('variavel b', b)
+ //}
+ 
+ //imprimirvariavel()
+ //console.log('variavel a', a) 
+ //console.log('variavel b', b)
+
+ //function calcularea(altura, largura){
+///const area = altura * largura
+//eturn area
+
+ //}
+
+ //atribui retorno a uma variavel
+ //const areacalculada = calcularea(2, 3)
+
+ //imprime retorno no console
+ //console.log(calcularea(2, 3)) 
+
+
+
+ //function calculaconta(par, impar){
+    //const conta = par + impar
+    //return conta
+     //}
+     //const areacalculada = calculaconta(10, 5)
+    // console.log(areacalculada) 
+
+    let array = [2, 4, 6, 8]
+
+    function novoarray  (a){
+        let newarray = [];
+        newarray[0] =a.pop()/2;
+        newarray[1] =a[0]/2;
+        return newarray
+
+    }
+console.log(novoarray(array))    
